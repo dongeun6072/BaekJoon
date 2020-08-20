@@ -1,6 +1,6 @@
 num = set(range(1,10001))
 generated_num = set()
-for i in range(1,10001):
+for i in range(1,10002):
     print(i)
     for j in str(i):
         print("{0} {1}".format(int(j),i))
