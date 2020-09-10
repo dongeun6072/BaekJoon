@@ -29,4 +29,4 @@ for i in range(T):
         for j in oup:
             if N == i+j:
                 print("{0} + {1} = {2}".format(i,j,i+j))
-        
+    print(oup)   
